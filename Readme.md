@@ -38,6 +38,8 @@ The dataset contains a total of **1369 trials**. For each trial, we provide the 
 
 ### 1.3. Testing conditions
 
+**TODO**: add exact number of samples per conditions!
+
 The samples were recorded under the following lighting conditions:
 - Full light (100 Lux)
 - Dim light (1-3 Lux)
@@ -84,6 +86,8 @@ Usage: `test_<sensor>_csv.py <ID>` where ID of the sample ranges from 1 to 1369.
 One sample can also be visualized at a glance using the `sample_visualization_csv.py` script, adding the ID of the sample as first argument. 
 
 ### 2.3. Important information
+
+**TODO**: add all specifications about reference frames!
 
 Please report any problem you encounter to Julien Dupeyroux (j.j.g.dupeyroux@tudelft.nl). So far, here are the known issues (already reported to the `trial_overview.csv` file):
 - Samples 1306, 1321, and 1344 seem to be corrupted.

@@ -6,7 +6,7 @@ Julien Dupeyroux, Raoul Dinaux, Nikhil Wessendorp, and Guido de Croon. <br/>*Mic
 
 ---
 
-Data availability: <br/>https://link/to/the/dataset/on/4TUservers/
+The full dataset is available at: <br/>https://link/to/the/dataset/on/4TUservers/
 
 ---
 

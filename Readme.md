@@ -71,7 +71,7 @@ Usage: `test_<sensor>_ros.py <ID>` where ID of the sample ranges from 1 to 1369.
 
 One sample can also be visualized at a glance using the `sample_visualization_ros.py` script, adding the ID of the sample as first argument. See example below.
 
-![](visualization_sample_345/full_sample_3.png)
+![](visualization_sample_3/full_sample_3.png)
 
 ### 2.2. Using CSV files
 

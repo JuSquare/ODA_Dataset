@@ -38,15 +38,13 @@ The dataset contains a total of **1369 trials**. For each trial, we provide the 
 
 ### 1.3. Testing conditions
 
-**TODO**: add exact number of samples per conditions!
-
 The samples were recorded under the following lighting conditions:
-- Full light (100 Lux)
-- Dim light (1-3 Lux)
+- Full light (100 Lux) [1286]
+- Dim light (1-3 Lux) [83]
 
 Also, we varied the number of obstacles available in the flying arena: 
-- 1 obstacle
-- 2 obstacles
+- 1 obstacle [742]
+- 2 obstacles [627]
 
 The summary of these conditions is given in the `trial_overview.csv` file (in the dataset). 
 

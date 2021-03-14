@@ -9,4 +9,4 @@ The camera calibration file `calib.mat` contains the following structures:
 - estimationErrors: contains error values for intrinsic and extrinsic parameters. 
 
 Extrinsic parameters:<br/>
-![](extrinsic_visualization.png)
+![](extrinsic_visualization.PNG)

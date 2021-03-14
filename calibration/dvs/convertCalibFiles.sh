@@ -1,3 +1,4 @@
+#!/bin/sh
 python3 convAedat2txt.py calib1.aedat4 calib1.txt
 python3 convAedat2txt.py calib2.aedat4 calib2.txt
 python3 convAedat2txt.py calib3.aedat4 calib3.txt

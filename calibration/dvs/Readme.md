@@ -2,6 +2,15 @@
 
 The calibration parameters and distortion maps are contained in `calib.mat` within the following variables: `params`, `gridX` and `gridY` respectively. The distortion maps are also available in the `calibDVS240.h` file. 
 
+Before compensation for distortion: 
+![](before_correction.png)
+
+After correction of distortion:
+![](after_correction.png)
+
+Extrinsic parameters:
+![](extrinsic_visualization.png)
+
 ---
 
 **Steps to reproduce the calibration**

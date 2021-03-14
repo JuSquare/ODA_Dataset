@@ -1,5 +1,11 @@
 # DVS240 event-based camera calibration
 
+The calibration parameters and distortion maps are contained in `calib.mat` within the following variables: `params`, `gridX` and `gridY` respectively. The distortion maps are also available in the `calibDVS240.h` file. 
+
+---
+
+**Steps to reproduce the calibration**
+
 To complete the calibration of your DVS, first determine its ID by running `dmesg` after plugging in the camera. For this tutorial, the camera used is the DAVIS MONO (DVS) 0216, which will therefore display:
 
     [21340.984721] usb 2-1: new SuperSpeed Gen 1 USB device number 3 using xhci_hcd
@@ -23,4 +29,6 @@ Run the 1st section of the code and follow the instructions. Recordings are perf
 
     sh convertCalibFiles.sh
     
-This will take time (10-15 min). Once done, continue the calibration by runing the next sections of the Matlab calibration file. The program will output a .mat file, and then display the undistorted maps for X and Y. Copy-paste these maps into the `calibDVS240.h` file.
+This will take time (10-15 min). Once done, continue the calibration by runing the next sections of the Matlab calibration file. The program will output a .mat file, and then display the undistorted maps for X and Y. Copy-paste these maps into the `calibDVS240.h` file. 
+
+

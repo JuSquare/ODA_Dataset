@@ -48,7 +48,7 @@ if __name__ == '__main__':
 
     # Frames
     frames = list()
-    myFrame = 128*np.ones((DIMY,DIMX,3), 'uint8')
+    myFrame = 255*np.ones((DIMY,DIMX,3), 'uint8')
 
     # Time (in ns)
     t = list()
@@ -73,17 +73,25 @@ if __name__ == '__main__':
 
             if currentTime - previousTime < 1/FPS:
                 if pp == 1:
+                    myFrame[yy,xx,0] = 0
+                    myFrame[yy,xx,1] = 0
                     myFrame[yy,xx,2] = 255
                 else:
                     myFrame[yy,xx,0] = 255
+                    myFrame[yy,xx,1] = 0
+                    myFrame[yy,xx,2] = 0
             else:
                 frames.append(myFrame)
                 previousTime = currentTime
-                myFrame = 128*np.zeros((DIMY,DIMX,3), 'uint8')
+                myFrame = 255*np.ones((DIMY,DIMX,3), 'uint8')
                 if pp == 1:
+                    myFrame[yy,xx,0] = 0
+                    myFrame[yy,xx,1] = 0
                     myFrame[yy,xx,2] = 255
                 else:
                     myFrame[yy,xx,0] = 255
+                    myFrame[yy,xx,1] = 0
+                    myFrame[yy,xx,2] = 0
 
     frames.append(myFrame)
 
